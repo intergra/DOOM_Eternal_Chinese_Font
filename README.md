@@ -12,9 +12,7 @@
 
 ## Download / 下载
 
-请前往本仓库的
-[Releases](https://github.com/intergra/DOOM_Eternal_Chinese_Font/releases)
-页面下载：
+请前往本仓库的 [Releases](https://github.com/intergra/DOOM_Eternal_Chinese_Font/releases) 页面下载：
 
 ```text
 DOOM_Eternal_Chinese_Font.zip
@@ -29,14 +27,9 @@ DOOM_Eternal_Chinese_Font.zip
 本 Mod 用于改善《DOOM Eternal》原版简体中文字形轮廓不规则、笔画扭曲以及小字号
 难以辨认的问题，并统一两套目标字体中可安全替换的普通文字外观。
 
-简体中文粗体使用 **Source Han Sans SC Bold**，正文使用
-**Source Han Sans SC Medium**。除简体中文外，替换范围还包括目标字体表中可安全替换的
-普通标点、拉丁字母与拉丁扩展、受支持的希腊文和西里尔文、通用标点与货币符号，以及
-全角和半角兼容文字。
+简体中文粗体使用 **Source Han Sans SC Bold**，正文使用 **Source Han Sans SC Medium**。除简体中文外，替换范围还包括目标字体表中可安全替换的普通标点、拉丁字母与拉丁扩展、受支持的希腊文和西里尔文、通用标点与货币符号，以及全角和半角兼容文字。
 
-本项目只修改现有字体图集中的目标字形像素，不修改游戏翻译文本、FontFX、SWF、DLL
-或运行时代码。原有字体表、字符顺序、重复映射、排版度量、图集结构、资源名、语言
-映射和 fallback 行为均保持不变。
+本项目只修改现有字体图集中的目标字形像素，不修改游戏翻译文本、FontFX、SWF、DLL 或运行时代码。原有字体表、字符顺序、重复映射、排版度量、图集结构、资源名、语言映射和 fallback 行为均保持不变。
 
 ## Important Notes / 重要说明
 
@@ -67,8 +60,7 @@ DOOM_Eternal_Chinese_Font.zip
 - 通用标点、货币符号和商标符号；
 - 全角文字和半角兼容文字。
 
-字体表中不存在的字符不会被凭空新增；Source Han Sans SC 未覆盖的字符继续保留原有
-显示与回退行为。
+字体表中不存在的字符不会被凭空新增；Source Han Sans SC 未覆盖的字符继续保留原有显示与回退行为。
 
 ### 3. 保留游戏兼容结构
 
@@ -136,13 +128,11 @@ Injector 更新后，应重新确认当前工具版本与游戏资源的兼容�
 
 ## Installation / 安装方法
 
-安装前请关闭游戏，并从 `Mods` 文件夹移走其他会替换简体中文字体或相同 `dfpop*`
-图集的 Mod。
+安装前请关闭游戏，并从 `Mods` 文件夹移走其他会替换简体中文字体或相同 `dfpop*` 图集的 Mod。
 
 ### 3. 将 EternalModInjector 解压到游戏目录
 
-解压下载的 EternalModInjector 压缩包，把其中的 `base`、`Mods`、
-`EternalModInjector.bat` 和管理器程序放到《DOOM Eternal》游戏根目录。不要在游戏
+解压下载的 EternalModInjector 压缩包，把其中的 `base`、`Mods`、`EternalModInjector.bat` 和管理器程序放到《DOOM Eternal》游戏根目录。不要在游戏
 根目录中额外套一层管理器文件夹。
 
 ![将 EternalModInjector 解压到游戏根目录](png/step_3.png)
@@ -167,8 +157,7 @@ Injector 更新后，应重新确认当前工具版本与游戏资源的兼容�
 WARNING: licenses.resources was not found! Skipping...
 ```
 
-这是因为许可文件不是游戏资源。只要随后显示两个字体资源已替换，并出现
-`Mods have been installed!`，即表示 Injector 已完成安装。
+这是因为许可文件不是游戏资源。只要随后显示两个字体资源已替换，并出现 `Mods have been installed!`，即表示 Injector 已完成安装。
 
 ### 6. 将游戏语言设置为简体中文
 
@@ -216,10 +205,7 @@ WARNING: licenses.resources was not found! Skipping...
 来源和许可边界见 [SourceHanSansSC-COPYRIGHT.md](SourceHanSansSC-COPYRIGHT.md) 与
 [第三方许可说明](THIRD_PARTY_NOTICES.md)。
 
-游戏名称、原始文本、图像、音频和其他资产归其各自权利人所有。本项目是非官方、
-非商业的玩家制作 Mod，与 id Software、Bethesda Softworks、ZeniMax Media、Adobe
-或其他相关权利人没有隶属、认可或赞助关系。使用本 Mod 必须拥有通过合法渠道取得的
-游戏副本。
+游戏名称、原始文本、图像、音频和其他资产归其各自权利人所有。本项目是非官方、非商业的玩家制作 Mod，与 id Software、Bethesda Softworks、ZeniMax Media、Adobe 或其他相关权利人没有隶属、认可或赞助关系。使用本 Mod 必须拥有通过合法渠道取得的游戏副本。
 
 ## Support / 赞赏支持
 
@@ -242,10 +228,8 @@ WARNING: licenses.resources was not found! Skipping...
 ## Feedback / 反馈
 
 如果在游玩过程中发现缺字、方框、裁切、重叠、基线偏移、异常换行、字体资源冲突或
-安装异常，请在本仓库的
-[Issues](https://github.com/intergra/DOOM_Eternal_Chinese_Font/issues) 中反馈。
+安装异常，请在本仓库的 [Issues](https://github.com/intergra/DOOM_Eternal_Chinese_Font/issues) 中反馈。
 
-请尽量提供问题所在菜单、任务、字幕或 HUD 位置，原始分辨率截图、游戏语言、分辨率、
-UI 缩放、已安装 Mod 列表，以及 Injector 日志中与两个字体资源有关的部分。
+请尽量提供问题所在菜单、任务、字幕或 HUD 位置，原始分辨率截图、游戏语言、分辨率、UI 缩放、已安装 Mod 列表，以及 Injector 日志中与两个字体资源有关的部分。
 
 感谢每一位测试和反馈问题的玩家。
